@@ -27,8 +27,8 @@ public class CalcFrame extends JFrame{
             ex.printStackTrace();
         }
         memory=null;
-        lastAnswer = new ConstantExpression(0.0);
-        VariableExpression.difine(answerKey, 0.0);
+        lastAnswer = new ConstantExpression(0);
+        VariableExpression.difine(answerKey, 0);
     }
 
     private Expression lastAnswer;
